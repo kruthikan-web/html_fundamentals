@@ -1,4 +1,43 @@
-h1{color:aquamarine;
-font-size:larger;
-font-family:monospace;
+
+a{font-size: 40px;
+color: #0b1015;
+text-decoration: none;}
+body{
+    height:100vh;
+    margin:0;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #71879e;
+    align-items: center;
+    position:fixed;
+width:100%;}
+img{
+    height:400px;
+width:400px;}
+video{
+    height:400px;
+    width:400px;
+
+}
+    
+section{
+    height:100vh;
+    width:100vw;
+font-size: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+div{
+    border: 2px solid black;
+    background-color: #d170ac;
+    border-radius: 25px;
+    transition: all  1s ease-in-out;
+}
+div:hover{
+    scale: 200%; /*scale in scale out*/
+    rotate: -30deg; /*rotate in rotate out*/
+    transition: all 1s ease-in-out; /*transition in transition out*/
 }
